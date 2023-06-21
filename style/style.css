@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#navbar_ ul{
+    display: flex;
+}
+
+#navbar_ ul li{
+    display: flex;
+    margin: 1rem;
+    
+}
+
+#navbar_ ul a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#navbar_{
+    display: flex;
+    padding: 0 0.5rem 0 0.5rem;
+    justify-content: space-between;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.left{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.right{
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+
+.middle{
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+    #navbar_ ul li{
+        display: flex;
+        margin: 0.5rem;
+    }
+}
+
+
+#front_page{
+    
+    
+    background-size: cover;
+    background-color: #E8BEA2;
+    background-size: cover;
+  background-position: center;
+  
+}
+
+.front{
+    display: flex;
+    background-color: #E8BEA2;
+    justify-content: space-around;
+}
+
+.disc{
+    
+    align-content: center;
+    padding-top: 3.5rem;
+    font-size: 2.5rem!important;
+    text-align: center;
+    width: 25rem;
+    justify-content: space-between;
+    font-family: 'Libre Baskerville', serif;
+    color:#fff;
+}
+
+
+
+.image{
+    height: 15rem;
+    width: 15rem;
+}
+
+
+.desc-img{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.coll{
+    align-items: center;
+}
+
+.card-car{
+    display: flex!important;
+}
+
+
+.product{
+    display: flex;
+   color: rgb(97, 97, 97);
+   font-size: 1rem;
+    overflow-x: hidden;
+    overflow: scroll;
+    border: none;
+}
+
+.product::-webkit-scrollbar {
+    display: none;
+  }
+
+.prod_card{
+    height: 20rem;
+    border-radius: 0.5rem;
+    margin: 0rem 1rem 0rem 1rem !important;
+    
+}
+
+.row p{
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+span{
+    font-family: 'Satisfy', cursive;
+}
+
+.test_desc {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+}
+
+.test_desc h1{
+    font-family: 'EB Garamond', serif;
+}
+
+.test_desc h4{
+    font-size: 1rem;
+    font-weight: 100;
+    width: 25rem;
+}
+
+.test_desc p{
+    font-size: 0.8rem;
+}
+
+.about_us{
+    width: 8rem;
+    border: 1.5px solid #434343;
+    margin: 2rem 0rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    background-color: #ded0c7;
+    color: #434343;
+}
+
+.test_1{
+    background-color: #ded0c7;
+    margin-top: 3rem;
+    color: #434343;
+}
+
+.cream{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    
+    
+}
+
+.cream-img{
+    max-width: 25rem; /* Adjust this value as needed */
+    height: 25rem;
+}
+
+.new_arr{
+    padding: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #555555;
+    background-color: #ffd8bf;
+}
+
+.cream-btn{
+    width: 10rem;
+    margin-top: 3rem;
+    border: 1.5px solid #5c5b5b;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    background-color: #ffd8bf;
+}
+
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+}
+
+.intro_btn{
+    margin-top: 10rem!important;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+}
+
+
+.social-img{
+    display: flex;
+    overflow: scroll;
+    padding: 0rem 10rem;
+}
+
+.social-img::-webkit-scrollbar {
+    display: none;
+}
+
+.soc-img{
+    width: 15rem;
+}
+
+.soc{
+    background-color: #eeeeee;
+    padding-bottom: 8rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+
+.footer ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer img{
+    position: absolute;
+    bottom: 8rem;
+    width: 15rem;
+   
+}
+
+.footer li{
+    margin: 0.5rem 0rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer{
+
+    padding: 5rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #E8BEA2;
+}
+
+
+.footer h2{
+    font-family: 'Libre Baskerville', serif;
+    margin: 0rem 0rem 2rem 0rem;
+}
+
+.contact{
+    margin: 2rem 0rem 0rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.2rem;
+    background-color: #E8BEA2;
+    padding: 0rem 2rem;
+}
+
+
+
+.foot-det{
+   
+    display: flex;
+    background-color: #E8BEA2;
+}
+
+.foot-det p{
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.bi-instagram{
+    text-align: center;
+    align-content: center;
+    margin: 1rem;
+}
+
+.bi{
+    margin: 0rem;
+}
